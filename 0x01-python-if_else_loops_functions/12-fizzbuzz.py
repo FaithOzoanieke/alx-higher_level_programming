@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-
-
 def fizzbuzz():
 
     [print("FizzBuzz", end=" ") if not (x % 3) and not (x % 5)
