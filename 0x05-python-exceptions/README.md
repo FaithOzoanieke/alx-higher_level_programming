@@ -1,7 +1,7 @@
 0x05. Python - Exceptions
 =========================
 
--   By Guillaume
+-   By Ujunwa Faith
 
 Resources
 ---------
@@ -61,7 +61,7 @@ Write a function that prints `x` elements of a list.
 -   You are not allowed to use `len()`
 
 ```
-guillaume@ubuntu:~/0x05$ cat 0-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 0-main.py
 #!/usr/bin/python3
 safe_print_list = __import__('0-safe_print_list').safe_print_list
 
@@ -74,14 +74,14 @@ print("nb_print: {:d}".format(nb_print))
 nb_print = safe_print_list(my_list, len(my_list) + 2)
 print("nb_print: {:d}".format(nb_print))
 
-guillaume@ubuntu:~/0x05$ ./0-main.py
+faithozoanieke@ubuntu:~/0x05$ ./0-main.py
 12
 nb_print: 2
 12345
 nb_print: 5
 12345
 nb_print: 5
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
@@ -108,7 +108,7 @@ Write a function that prints an integer with `"{:d}".format()`.
 -   You are not allowed to use `type()`
 
 ```
-guillaume@ubuntu:~/0x05$ cat 1-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 1-main.py
 #!/usr/bin/python3
 safe_print_integer = __import__('1-safe_print_integer').safe_print_integer
 
@@ -127,11 +127,11 @@ has_been_print = safe_print_integer(value)
 if not has_been_print:
     print("{} is not an integer".format(value))
 
-guillaume@ubuntu:~/0x05$ ./1-main.py
+faithozoanieke@ubuntu:~/0x05$ ./1-main.py
 89
 -89
 School is not an integer
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
@@ -159,7 +159,7 @@ Write a function that prints the first `x` elements of a list and only integers.
 -   You are not allowed to use `len()`
 
 ```
-guillaume@ubuntu:~/0x05$ cat 2-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 2-main.py
 #!/usr/bin/python3
 safe_print_list_integers =\
     __import__('2-safe_print_list_integers').safe_print_list_integers
@@ -176,7 +176,7 @@ print("nb_print: {:d}".format(nb_print))
 nb_print = safe_print_list_integers(my_list, len(my_list) + 2)
 print("nb_print: {:d}".format(nb_print))
 
-guillaume@ubuntu:~/0x05$ ./2-main.py
+faithozoanieke@ubuntu:~/0x05$ ./2-main.py
 12
 nb_print: 2
 12345
@@ -187,7 +187,7 @@ nb_print: 5
   File "/0x05/2-safe_print_list_integers.py", line 7, in safe_print_list_integers
     print("{:d}".format(my_list[i]), end="")
 IndexError: list index out of range
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
@@ -212,7 +212,7 @@ Write a function that divides 2 integers and prints the result.
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x05$ cat 3-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 3-main.py
 #!/usr/bin/python3
 safe_print_division = __import__('3-safe_print_division').safe_print_division
 
@@ -226,12 +226,12 @@ b = 0
 result = safe_print_division(a, b)
 print("{:d} / {:d} = {}".format(a, b, result))
 
-guillaume@ubuntu:~/0x05$ ./3-main.py
+faithozoanieke@ubuntu:~/0x05$ ./3-main.py
 Inside result: 6.0
 12 / 2 = 6.0
 Inside result: None
 12 / 0 = None
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
@@ -262,7 +262,7 @@ Write a function that divides element by element 2 lists.
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x05$ cat 4-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 4-main.py
 #!/usr/bin/python3
 list_division = __import__('4-list_division').list_division
 
@@ -278,14 +278,14 @@ my_l_2 = [2, 0, "H", 2, 7]
 result = list_division(my_l_1, my_l_2, max(len(my_l_1), len(my_l_2)))
 print(result)
 
-guillaume@ubuntu:~/0x05$ ./4-main.py
+faithozoanieke@ubuntu:~/0x05$ ./4-main.py
 [5.0, 2.0, 1.0]
 --
 division by 0
 wrong type
 out of range
 [5.0, 0, 0, 2.0, 0]
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
@@ -305,7 +305,7 @@ Write a function that raises a type exception.
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x05$ cat 5-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 5-main.py
 #!/usr/bin/python3
 raise_exception = __import__('5-raise_exception').raise_exception
 
@@ -314,9 +314,9 @@ try:
 except TypeError as te:
     print("Exception raised")
 
-guillaume@ubuntu:~/0x05$ ./5-main.py
+faithozoanieke@ubuntu:~/0x05$ ./5-main.py
 Exception raised
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
@@ -336,7 +336,7 @@ Write a function that raises a name exception with a message.
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x05$ cat 6-main.py
+faithozoanieke@ubuntu:~/0x05$ cat 6-main.py
 #!/usr/bin/python3
 raise_exception_msg = __import__('6-raise_exception_msg').raise_exception_msg
 
@@ -345,9 +345,9 @@ try:
 except NameError as ne:
     print(ne)
 
-guillaume@ubuntu:~/0x05$ ./6-main.py
+faithozoanieke@ubuntu:~/0x05$ ./6-main.py
 C is fun
-guillaume@ubuntu:~/0x05$
+faithozoanieke@ubuntu:~/0x05$
 
 ```
 
