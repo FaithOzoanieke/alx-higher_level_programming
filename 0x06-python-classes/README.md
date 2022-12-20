@@ -1,7 +1,7 @@
 0x06. Python - Classes and Objects
 ==================================
 
--   By Guillaume
+-   By Faith Ujunwa
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/247/oop-meme.jpg)
 
@@ -94,7 +94,7 @@ Write an empty class `Square` that defines a square:
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x06$ cat 0-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 0-main.py
 #!/usr/bin/python3
 Square = __import__('0-square').Square
 
@@ -102,10 +102,10 @@ my_square = Square()
 print(type(my_square))
 print(my_square.__dict__)
 
-guillaume@ubuntu:~/0x06$ ./0-main.py
+faithozoanieke@ubuntu:~/0x06$ ./0-main.py
 <class '0-square.Square'>
 {}
-guillaume@ubuntu:~/0x06$
+faithozoanieke@ubuntu:~/0x06$
 
 ```
 
@@ -134,7 +134,7 @@ Write a class `Square` that defines a square by: (based on `0-square.py`)
 The size of a square is crucial for a square, many things depend of it (area computation, etc.), so you, as class builder, must control the type and value of this attribute. One way to have the control is to keep it privately. You will see in next tasks how to get, update and validate the size value.
 
 ```
-guillaume@ubuntu:~/0x06$ cat 1-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 1-main.py
 #!/usr/bin/python3
 Square = __import__('1-square').Square
 
@@ -152,12 +152,12 @@ try:
 except Exception as e:
     print(e)
 
-guillaume@ubuntu:~/0x06$ ./1-main.py
+faithozoanieke@ubuntu:~/0x06$ ./1-main.py
 <class '1-square.Square'>
 {'_Square__size': 3}
 'Square' object has no attribute 'size'
 'Square' object has no attribute '__size'
-guillaume@ubuntu:~/0x06$
+faithozoanieke@ubuntu:~/0x06$
 
 ```
 
@@ -183,7 +183,7 @@ Write a class `Square` that defines a square by: (based on `1-square.py`)
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x06$ cat 2-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 2-main.py
 #!/usr/bin/python3
 Square = __import__('2-square').Square
 
@@ -219,7 +219,7 @@ try:
 except Exception as e:
     print(e)
 
-guillaume@ubuntu:~/0x06$ ./2-main.py
+faithozoanieke@ubuntu:~/0x06$ ./2-main.py
 <class '2-square.Square'>
 {'_Square__size': 3}
 <class '2-square.Square'>
@@ -228,7 +228,7 @@ guillaume@ubuntu:~/0x06$ ./2-main.py
 'Square' object has no attribute '__size'
 size must be an integer
 size must be >= 0
-guillaume@ubuntu:~/0x06$
+faithozoanieke@ubuntu:~/0x06$
 
 ```
 
@@ -255,7 +255,7 @@ Write a class `Square` that defines a square by: (based on `2-square.py`)
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x06$ cat 3-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 3-main.py
 #!/usr/bin/python3
 Square = __import__('3-square').Square
 
@@ -275,12 +275,12 @@ except Exception as e:
 my_square_2 = Square(5)
 print("Area: {}".format(my_square_2.area()))
 
-guillaume@ubuntu:~/0x06$ ./3-main.py
+faithozoanieke@ubuntu:~/0x06$ ./3-main.py
 Area: 9
 'Square' object has no attribute 'size'
 'Square' object has no attribute '__size'
 Area: 25
-guillaume@ubuntu:~/0x06$
+faithuju@ubuntu:~/0x06$
 
 ```
 
@@ -315,7 +315,7 @@ Write a class `Square` that defines a square by: (based on `3-square.py`)
 Reminder: `size` is a private attribute. We did that to make sure we control the type and value. Getter and setter methods are not 100% Python, but more OOP. With them, you will be able to validate the assignment of a private attribute and also define how getting the attribute value will be available from outside - by copy? by assignment? etc. Also, adding type/value validation in the setter will centralize the logic, since you will do it in only one place.
 
 ```
-guillaume@ubuntu:~/0x06$ cat 4-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 4-main.py
 #!/usr/bin/python3
 Square = __import__('4-square').Square
 
@@ -331,11 +331,11 @@ try:
 except Exception as e:
     print(e)
 
-guillaume@ubuntu:~/0x06$ ./4-main.py
+faithozoanieke@ubuntu:~/0x06$ ./4-main.py
 Area: 7921 for size: 89
 Area: 9 for size: 3
 size must be an integer
-guillaume@ubuntu:~/0x06$
+faithozoanieke@ubuntu:~/0x06$
 
 ```
 
@@ -366,7 +366,7 @@ Write a class `Square` that defines a square by: (based on `4-square.py`)
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x06$ cat 5-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 5-main.py
 #!/usr/bin/python3
 Square = __import__('5-square').Square
 
@@ -385,7 +385,7 @@ my_square.my_print()
 
 print("--")
 
-guillaume@ubuntu:~/0x06$ ./5-main.py
+faithozoanieke@ubuntu:~/0x06$ ./5-main.py
 ###
 ###
 ###
@@ -403,7 +403,7 @@ guillaume@ubuntu:~/0x06$ ./5-main.py
 --
 
 --
-guillaume@ubuntu:~/0x06$
+faithozoanieke@ubuntu:~/0x06$
 
 ```
 
@@ -440,7 +440,7 @@ Write a class `Square` that defines a square by: (based on `5-square.py`)
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x06$ cat 6-main.py
+faithozoanieke@ubuntu:~/0x06$ cat 6-main.py
 #!/usr/bin/python3
 Square = __import__('6-square').Square
 
@@ -459,7 +459,7 @@ my_square_3.my_print()
 
 print("--")
 
-guillaume@ubuntu:~/0x06$ ./6-main.py | tr " " "_" | cat -e
+faithozoanieke@ubuntu:~/0x06$ ./6-main.py | tr " " "_" | cat -e
 ###$
 ###$
 ###$
@@ -473,7 +473,7 @@ ___###$
 ___###$
 ___###$
 --$
-guillaume@ubuntu:~/0x06$
+faithozoanieke@ubuntu:~/0x06$
 
 ```
 
