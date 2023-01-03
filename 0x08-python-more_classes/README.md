@@ -30,7 +30,7 @@ Resources
 Learning Objectives
 -------------------
 
-At the end of this project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/hOViVT2nJU8jeBxvw52bjw "explain to anyone"), **without the help of Google**:
+At the end of this very project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/hOViVT2nJU8jeBxvw52bjw "explain to anyone"), **without the help of Google**:
 
 ### General
 
