@@ -1,7 +1,7 @@
 0x09. Python - Everything is object
 ===================================
 
--   By Guillaume
+-   By Faith Ujunwa Ozoanieke
 -   Weight: 1
 -   Project over - took place from 12-14-2021 to 12-15-2021 - you're done with 10% of tasks.
 -   QA review fully automated.
@@ -531,7 +531,7 @@ Write a function `def copy_list(l):` that returns a **copy** of a list.
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x09$ cat 19-main.py
+faithozoaniek@ubuntu:~/0x09$ cat 19-main.py
 #!/usr/bin/python3
 copy_list = __import__('19-copy_list').copy_list
 
@@ -546,13 +546,13 @@ print(new_list)
 print(new_list == my_list)
 print(new_list is my_list)
 
-guillaume@ubuntu:~/0x09$ ./19-main.py
+faithozoaniek@ubuntu:~/0x09$ ./19-main.py
 [1, 2, 3]
 [1, 2, 3]
 [1, 2, 3]
 True
 False
-guillaume@ubuntu:~/0x09$ wc -l 19-copy_list.py
+faithozoaniek@ubuntu:~/0x09$ wc -l 19-copy_list.py
 3 19-copy_list.py
 guillaume@ubuntu:~/0x09$
 
@@ -766,7 +766,7 @@ Write a function `magic_string()` that returns a string "BestSchool" n times the
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x09$ cat 100-main.py
+faithozoaniek@ubuntu:~/0x09$ cat 100-main.py
 #!/usr/bin/python3
 magic_string = __import__('100-magic_string').magic_string
 
@@ -784,9 +784,9 @@ BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestScho
 BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
 BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
 BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
-guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py
+faithozoaniek@ubuntu:~/0x09$ wc -l 100-magic_string.py
 4 100-magic_string.py
-guillaume@ubuntu:~/0x09$
+faithozoaniek@ubuntu:~/0x09$
 
 ```
 
@@ -809,7 +809,7 @@ Write a class `LockedClass` with no class or object attribute, that prevents the
 -   You are not allowed to import any module
 
 ```
-guillaume@ubuntu:~/0x09$ cat 101-main.py
+faithozoaniek@ubuntu:~/0x09$ cat 101-main.py
 #!/usr/bin/python3
 LockedClass = __import__('101-locked_class').LockedClass
 
@@ -820,9 +820,9 @@ try:
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))
 
-guillaume@ubuntu:~/0x09$ ./101-main.py
+faithozoaniek@ubuntu:~/0x09$ ./101-main.py
 [AttributeError] 'LockedClass' object has no attribute 'last_name'
-guillaume@ubuntu:~/0x09$
+faithozoaniek@ubuntu:~/0x09$
 
 ```
 
@@ -841,10 +841,10 @@ guillaume@ubuntu:~/0x09$
 Score: 0.00% (Checks completed: 0.00%)
 
 ```
-julien@ubuntu:/python3$ cat int.py
+faithozoaniek@ubuntu:/python3$ cat int.py
 a = 1
 b = 1
-julien@ubuntu:/python3$
+faithozoaniek@ubuntu:/python3$
 
 ```
 
@@ -866,13 +866,13 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 Score: 0.00% (Checks completed: 0.00%)
 
 ```
-julien@ubuntu:/python3$ cat int.py
+faithozoaniek@ubuntu:/python3$ cat int.py
 a = 1024
 b = 1024
 del a
 del b
 c = 1024
-julien@ubuntu:/python3$
+faithozoaniek@ubuntu:/python3$
 
 ```
 
@@ -927,13 +927,13 @@ Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
 Score: 0.00% (Checks completed: 0.00%)
 
 ```
-guillaume@ubuntu:/python3$ cat string.py
+faithozoaniek@ubuntu:/python3$ cat string.py
 a = "SCHL"
 b = "SCHL"
 del a
 del b
 c = "SCHL"
-guillaume@ubuntu:/python3$
+faithozoaniek@ubuntu:/python3$
 
 ```
 
