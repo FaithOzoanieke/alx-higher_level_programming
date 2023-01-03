@@ -3,7 +3,7 @@
 0x08. Python - More Classes and Objects
 =======================================
 
--   By Guillaume
+-   By Faith Ujunwa Ozoanieke
 -   Weight: 1
 
 
