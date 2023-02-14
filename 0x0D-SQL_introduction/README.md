@@ -1,7 +1,7 @@
 0x0D. SQL - Introduction
 ========================
 
--   By Guillaume
+-   Solutions by Faith Ujunwa
 -   Weight: 1
 -   Ongoing project - started 02-01-2022, must end by 02-02-2022 (in about 16 hours) - you're done with 0% of tasks.
 -   Checker was released at 02-01-2022 12:00 PM
