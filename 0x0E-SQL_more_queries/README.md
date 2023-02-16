@@ -1,1 +1,1 @@
-SQL more queries
+SQL more queries by Faith Uju
