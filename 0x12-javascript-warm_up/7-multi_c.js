@@ -1,5 +1,4 @@
 #!/usr/bin/node
-const process = 5;
 if (process === undefined || isNaN(process)) {
   console.log('Missing number of occurences');
 } else {
