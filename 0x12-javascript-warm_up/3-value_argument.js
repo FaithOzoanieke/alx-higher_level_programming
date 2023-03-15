@@ -1,6 +1,6 @@
 #!/usr/bin/node
-if (argument1 === 2) {
-  console.log('Argument is passed');
-} else {
+if (arg === undefined) {
   console.log('No argument');
+} else {
+  console.log(arg);
 }
