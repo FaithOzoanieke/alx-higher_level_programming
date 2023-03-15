@@ -1,3 +1,2 @@
 #!/usr/bin/node
-const count = process.argv.length;
-console.log(count === 2 ? 'No argument' : count === 3 ? 'Argument found' ? 'Arguments found');
+console.log(process.argv.length === 2 ? 'No argument' : process.argv.length === 3 ? 'Argument found' ? 'Arguments found');
