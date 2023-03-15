@@ -6,6 +6,6 @@ if (isNaN(size)) {
   for (let u = 0; u < size; u++) {
     let row = '';
     for (let f = 0; f < size; f++) row += 'X';
-    console.log(row);
+    console.log(row);;
   }
 }
