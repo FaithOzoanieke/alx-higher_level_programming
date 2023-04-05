@@ -1,12 +1,9 @@
 0x10. Python - Network #0
 =========================
 
--   By Guillaume
+-   By Faith Ozoanieke
 -   Weight: 1
 
-
-Resources
----------
 
 **Read or watch**:
 
@@ -14,7 +11,6 @@ Resources
 -   [HTTP Cookies](https://alx-intranet.hbtn.io/rltoken/MhVCl_0oviQldWPn5oX-NQ "HTTP Cookies")
 
 Learning Objectives
--------------------
 
 At the end of this project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/6HRdeOrrKTW2ih43ObB8tQ "explain to anyone"), **without the help of Google**:
 
@@ -36,10 +32,9 @@ At the end of this project, you are expected to be able to [explain to anyone](
 -   What an HTTP response status code is
 -   What an HTTP Cookie is
 -   How to make a request with cURL
--   What happens when you type google.com in your browser (Application level)
+-   What happens when you type google.com in your browser (Application level).
 
 Requirements
-------------
 
 ### General
 
@@ -61,7 +56,6 @@ Requirements
 -   A documentation is not a simple word, it's a real sentence explaining what's the purpose of the module, class or method (the length of it will be verified)
 
 Quiz questions
---------------
 
 Show
 
