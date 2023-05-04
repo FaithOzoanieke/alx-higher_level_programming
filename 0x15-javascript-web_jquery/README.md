@@ -23,5 +23,5 @@ Write a Javascript script that updates the text color of the HTML tag `HEADER` t
 
 Please test with this HTML file in your browser:
 
-**Solution:** by Faith Uju
+**Solution:** by Faith Ujunwa
 
