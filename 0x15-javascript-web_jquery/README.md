@@ -23,8 +23,7 @@ Write a Javascript script that updates the text color of the HTML tag `HEADER` t
 
 Please test with this HTML file in your browser:
 
-**Solution:** [0-script.js](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x15-javascript-web_jquery/0-script.js)
-
+**Solution:** by Faith Uju
 ```
 $ amonkeyprogrammer@ubuntu:~/0x15$ cat 0-main.html 
 <!DOCTYPE html>
@@ -299,23 +298,16 @@ $ amonkeyprogrammer@ubuntu:~/0x15$ cat 7-main.html
     <script type="text/javascript" src="7-script.js"></script>
   </body>
 </html>
-$ amonkeyprogrammer@ubuntu:~/0x15$
 ```
-
 ## Star Wars movies
 
-Write a Javascript script that fetches and lists all movies title by using this URL: `https://swapi-api.hbtn.io/api/films/?format=json`
-
+Write a Javascript script that fetches and lists all movies title
 * All movie titles must be list in the HTML tag `UL#list_movies`
 * You can’t use `document.querySelector` to select the HTML tag
 * You must use the jQuery API
 
 Please test with this HTML file in your browser:
-
-**Solution:** [8-script.js](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x15-javascript-web_jquery/8-script.js)
-
 ```
-$ amonkeyprogrammer@ubuntu:~/0x15$ cat 8-main.html 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -336,13 +328,12 @@ $ amonkeyprogrammer@ubuntu:~/0x15$ cat 8-main.html
     <script type="text/javascript" src="8-script.js"></script>
   </body>
 </html>
-$ amonkeyprogrammer@ubuntu:~/0x15$
+
 ```
 
 ## Say Hello!
 
-Write a Javascript script that fetches from `https://fourtonfish.com/hellosalut/?lang=fr` and displays the value of `hello` from that fetch in the HTML’s tag `DIV#hello`.
-
+Write a Javascript script that fetch
 * The translation of “hello” must be display in the HTML tag `DIV#hello`
 * You can’t use `document.querySelector` to select the HTML tag
 * You must use the jQuery API
@@ -350,10 +341,7 @@ Write a Javascript script that fetches from `https://fourtonfish.com/hellosalut/
 
 Please test with this HTML file in your browser:
 
-**Solution:** [9-script.js](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x15-javascript-web_jquery/9-script.js)
-
-```
-$ amonkeyprogrammer@ubuntu:~/0x15$ cat 9-main.html 
+``
 <!DOCTYPE html>
 <html lang="en">
   <head>
